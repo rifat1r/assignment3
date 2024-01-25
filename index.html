@@ -16,6 +16,7 @@
       src="https://kit.fontawesome.com/3d26e70650.js"
       crossorigin="anonymous"
     ></script>
+    <style></style>
   </head>
   <body>
     <header class="container mx-auto">
@@ -80,7 +81,7 @@
     <main class="container mx-auto">
       <!-- professional  -->
       <section class="my-24 mx-10 text-center">
-        <h3 class="text-4xl font-bold mb-10">Professional Hockeys Club</h3>
+        <h3 class="text-4xl font-bold mb-0">Professional Hockeys Club</h3>
         <p>
           Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
           placerat dolor. Purus urna in sit nullam proin.
@@ -143,11 +144,20 @@
       </section>
       <!-- program section -->
       <section>
-        <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+        <h2 class="text-3xl font-bold text-center mb-8">Program Sections</h2>
+        <p class="text-center">
+          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+          placerat dolor. Purus urna in sit nullam proin.
+        </p>
+        <div
+          class="container mx-auto grid gap-6 grid-cols-1 lg:grid-cols-2 mt-10"
+        >
           <!-- program 1 -->
-          <div class="relative">
-            <img class="brightness-50" src="./Images/2.png" alt="" />
-            <div class="absolute top-14 text-white ml-10 space-y-8 w-[450px]">
+          <div class="relative w-full">
+            <img class="brightness-50 w-full" src="./Images/2.png" alt="" />
+            <div
+              class="absolute top-8 lg:top-14 text-white ml-10 space-y-4 lg:space-y-12 w-[360px] lg:w-[500px]"
+            >
               <h3 class="text-2xl font-bold">Junior Program</h3>
               <p>
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
@@ -160,9 +170,11 @@
             </div>
           </div>
           <!-- program 2 -->
-          <div class="relative">
-            <img class="brightness-50" src="./Images/3.png" alt="" />
-            <div class="absolute top-14 text-white ml-10 space-y-8 w-[450px]">
+          <div class="relative w-full">
+            <img class="brightness-50 w-full" src="./Images/3.png" alt="" />
+            <div
+              class="absolute top-8 lg:top-14 text-white ml-10 space-y-4 lg:space-y-12 w-[360px] lg:w-[500px]"
+            >
               <h3 class="text-2xl font-bold">Junior Program</h3>
               <p>
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
@@ -175,9 +187,15 @@
             </div>
           </div>
           <!-- program 3 -->
-          <div class="relative lg:col-span-2">
-            <img class="brightness-50" src="./Images/4.png" alt="" />
-            <div class="absolute top-14 text-white ml-10 space-y-8 w-[450px]">
+          <div class="relative lg:col-span-2 w-full">
+            <img
+              class="brightness-50 w-full lg:w-full h-[244px] lg:h-[480px]"
+              src="./Images/4.png"
+              alt=""
+            />
+            <div
+              class="absolute top-6 lg:top-14 text-white ml-10 space-y-4 lg:space-y-12 w-[360px] lg:w-[500px]"
+            >
               <h3 class="text-2xl font-bold">Junior Program</h3>
               <p>
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
@@ -192,7 +210,7 @@
         </div>
       </section>
       <!-- products -->
-      <section class="my-36 space-y-12">
+      <section class="my-36 space-y-4 lg:space-y-12">
         <h2 class="text-4xl font-bold text-center">Our New Products</h2>
         <p class="text-center">
           Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
@@ -371,26 +389,86 @@
       </section>
       <!-- get in touch -->
       <section>
-        <div>
-          <div>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
-                />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Buy Now</button>
-                </div>
+        <div class="flex gap-20 flex-col lg:flex-row">
+          <div class="flex gap-5 flex-col">
+            <!-- c-card 1 -->
+            <div class="card card-compact w-96 bg-[#FDDD5F1A] p-9">
+              <img
+                class="w-[40px] mb-4"
+                src="./Images/Group 1171275317.png"
+                alt="Shoes"
+              />
+
+              <div class="">
+                <p>Phone Number :</p>
+                <h2 class="card-title">(+62) 123-321-543</h2>
+              </div>
+            </div>
+            <!-- c-card 2 -->
+            <div class="card card-compact w-96 bg-[#629CF31A] p-9">
+              <img
+                class="w-[40px] mb-4"
+                src="./Images/Group 1171275318.png"
+                alt="Shoes"
+              />
+
+              <div class="">
+                <p>Email :</p>
+                <h2 class="card-title">hockeys@support.com</h2>
+              </div>
+            </div>
+            <!-- c-card 3 -->
+            <div class="card card-compact w-96 bg-[#BCED6D1A] p-9">
+              <img
+                class="w-[40px] mb-4"
+                src="./Images/Group 1171275321.png"
+                alt="Shoes"
+              />
+
+              <div class="">
+                <p>Location :</p>
+                <h2 class="card-title">152/1 Mohakhali Wireless Gate</h2>
               </div>
             </div>
           </div>
-          <div></div>
-          <div></div>
+          <div class="mb-60 grid gap-6 grid-cols-1 lg:grid-cols-2">
+            <!-- input1 -->
+            <div class="mb-0">
+              <h3 class="text-xl font-semibold mb-4">Your Name</h3>
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="bg-[#13131808] w-full pr-80 pl-10 mb-0 py-5 rounded-lg"
+              />
+            </div>
+            <!-- input1 -->
+            <div class="mb-0">
+              <h3 class="text-xl font-semibold mb-4">Your Name</h3>
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="bg-[#13131808] w-full pr-80 pl-10 mb-0 py-5 rounded-lg"
+              />
+            </div>
+            <!-- input1 -->
+            <div class="mb-0">
+              <h3 class="text-xl font-semibold mb-4">Your Name</h3>
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="bg-[#13131808] w-full pr-80 pl-10 mb-0 py-5 rounded-lg"
+              />
+            </div>
+            <!-- input1 -->
+            <div class="mb-0">
+              <h3 class="text-xl font-semibold mb-4">Your Name</h3>
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="bg-[#13131808] w-full pr-80 pl-10 mb-0 py-5 rounded-lg"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </main>
